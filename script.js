@@ -10,14 +10,14 @@ function convertValues() {
     const euroToday = 5.62
     const libratoday = 6.16
    
-
+    // Se o select estiver selecionado o valor de dolar, entre aqui
     if (currencySelect.value == "dolar") {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "USD"
         }).format(inputCurrencyValue / dolarToday)
     }
-
+    // Se o select estiver selecionado o valor de , entre aqui
     if (currencySelect.value == "euro") {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
