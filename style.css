@@ -9,8 +9,8 @@
 
 body{
     background-image: url(https://www.remessaonline.com.br/blog/wp-content/uploads/2020/01/Conversor-de-moeda-online-conheça-os-5-melhores_695061088.jpg.optimal.jpg);
-    background-size: cover;
- 
+    background-size: 100%;
+   
     
 }
 .container {
@@ -19,14 +19,14 @@ body{
 }
 
 main {
-
+position: relative;
     width: 375px;
     height: 712px;
     background: #F4F4F4;
     border-radius: 20px;
     margin: 0px auto 40px;
     padding: 44px 24px 23px;
-
+    top: 40px;
 
 }
 
